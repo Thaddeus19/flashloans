@@ -8,7 +8,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 import "https://github.com/mrdavey/ez-flashloan/blob/remix/contracts/aave/IFlashLoanReceiver.sol";
 import "https://github.com/mrdavey/ez-flashloan/blob/remix/contracts/aave/ILendingPoolAddressesProvider.sol";
 import "https://github.com/mrdavey/ez-flashloan/blob/remix/contracts/aave/EthAddressLib.sol";
-import "https://github.com/mrdavey/ez-flashloan/blob/remix/contracts/utils/Withdrawable.sol";
+import "https://github.com/Thaddeus19/flashloans/blob/master/Withdrawable.sol";
 
 contract FlashLoanReceiverBase is IFlashLoanReceiver, Withdrawable {
     using SafeERC20 for IERC20;
